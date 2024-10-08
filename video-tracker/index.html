@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Video Completion Tracker</h2>
+        <video id="myVideo" width="600" controls>
+            <source src="./test.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="status">
+            <span id="statusMessage">Watch the video to see the completion status.</span>
+            <span id="checkMark" class="hidden">✔</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
